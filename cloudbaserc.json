@@ -1,0 +1,11 @@
+{
+	"envId": "wxcomponent-0gmezbdb0385b519",
+	"framework": {
+		"name": "wechat-auth",
+		"plugins": {
+			"node": {
+				"use": "@cloudbase/framework-plugin-node"
+			}
+		}
+	}
+}
