@@ -7,10 +7,10 @@ const xml2js = require('xml2js');
 const app = express();
 app.use(bodyParser.text({ type: 'text/xml' }));
 
-const appId = 'YOUR_APP_ID';
-const appSecret = 'YOUR_APP_SECRET';
-const token = 'YOUR_COMPONENT_TOKEN';
-const encodingAESKey = 'YOUR_ENCODING_AES_KEY';
+const appId = 'wxe265060477e6f324';
+const appSecret = ' 094e9274ff330ee726dc98e72cd42b4e';
+const token = 'f024443c74aad1e7242aff69';
+const encodingAESKey = '6d0ef07e8f726b7120692dca7f2b6aacbbe64d451a7';
 
 let componentVerifyTicket = '';
 
