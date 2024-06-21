@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 // 接收微信服务器推送的Component Verify Ticket
 app.post('/callback', (req, res) => {
 	const rawBody = req.body;
-
+	console.log('Received request:callback')
 	xml2js.parseString(rawBody, { explicitArray: false }, (err, result) => {
 		if (err) {
 			return res.status(500).send('Failed to parse XML');
